@@ -1,0 +1,103 @@
+.container {
+  max-width: 498px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 7px;
+  margin-top: 50px;
+  padding: 50px;
+}
+.h1 {
+  text-align: center;
+}
+
+.sms-icon {
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 10px;
+  font-size: 23px;
+}
+
+.input-name {
+  width: 100%;
+  height: 49px;
+  border: none;
+  border: 2px solid #e4e4e4;
+  border-radius: 10px;
+  color: #797979;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-left: 45px;
+}
+.show {
+  display: block;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 340px;
+}
+.sign {
+  width: 100%;
+  height: 59px;
+  background: linear-gradient(91.94deg, #ffa7a7 3.09%, #ff014e 139.14%);
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.gogle-btn {
+  width: 100%;
+  height: 59px;
+  background: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  border: 2px solid #e4e4e4;
+  display: flex;
+  /* position: absolute; */
+  padding-left: 120px;
+  gap: 10px;
+  align-items: center;
+}
+
+.sso {
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  /* border-bottom: 2px solid black; */
+  padding-bottom: 20px;
+}
+.p {
+  text-align: center;
+  padding-left: 20px;
+  display: flex;
+  font-size: 10px;
+  color: #797979;
+  margin-top: 10px;
+}
+
+.line {
+  width: 498px;
+  height: 1px;
+  background: #dfdfdf;
+  position: absolute;
+  margin-left: -50px;
+}
+
+/* index.css yoki alohida dark-mode.css faylda */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+  width: 498px;
+  margin: 0 auto;
+}
+
+/* Boshqa stilni ham dark mode uchun almashtirishingiz mumkin */
+.dark-mode .container {
+  /* Stil o'zgarishi */
+}
+
+.dark-mode .sign {
+  /* Stil o'zgarishi */
+}
+
+/* Va hokazo */
